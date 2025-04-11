@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FEiRBUnBFEqtGiQFUXzAFQ" Reference="WivqweoQ70GDkdGez_8mvA/SMwdHRDCYUe1IJqFK75XbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="search.shopping.naver.com/search/all" DesignTimeRectangle="1879, 1357, 42, 42" DesignTimeScaleFactor="1.75" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='list*' aria-role='button' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='list 선택' aria-role='button' tag='A' type='' class='subFilter_btn_list__58VQk active _nlog_click _nlog_impression_element' check:innerText='list 선택' /&gt;" Guid="e4f1c7ec-6e13-4391-8025-6d8d98d00c97" ScopeSelectorArgument="&lt;html app='chrome.exe' title='세탁기 : 네이버 가격비교' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1921, 1357, 43, 42" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='image ' aria-role='button' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='image ' aria-role='button' tag='A' type='' class='subFilter_btn_image__f1VPa _nlog_click _nlog_impression_element' check:innerText='image' /&gt;" Guid="28ed725e-676e-4f74-89ac-932354498fe3" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e1207e1fd7e67993a9aa621b9d9118b7.png" xmlns="">0EpcBIDQueEe3JmA5eDcEAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
