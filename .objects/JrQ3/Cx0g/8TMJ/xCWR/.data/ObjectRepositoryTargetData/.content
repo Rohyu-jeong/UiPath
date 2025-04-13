@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sVMqSq2ZlUGsLSEAdf8KjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/update/105585290" CVScreenId="a94261d4-64a0-4af7-ba58-64c64803cae4" CvElementArea="758, 10, 35, 32" CvType="CloseButton" DesignTimeRectangle="736, 1, 82, 52" DesignTimeScaleFactor="1.75" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Chrome' role='pane' /&gt;&lt;ctrl name='닫기' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Chrome' role='pane' /&gt;&lt;ctrl name='닫기' role='push button' automationid='' check:text='닫기' /&gt;" Guid="dc2830c3-4efd-406c-b91c-957d19c1ce25" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a94261d4-64a0-4af7-ba58-64c64803cae4" CvElementArea="678, 9, 35, 34" CvType="MaximizeButton" DesignTimeRectangle="656, 1, 81, 52" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Chrome' role='pane' /&gt;&lt;ctrl name='최대화' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Chrome' role='pane' /&gt;&lt;ctrl name='최대화' role='push button' automationid='' check:text='최대화' /&gt;" Guid="bb3d5dbe-b3f1-47d6-93ad-447eb1d0ccac" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6dd942cf115926aca195ee4e85bd27e4.png" xmlns="">0B6WYEHY-k0GQS_2eO0vf8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "ACME System 1 - Chrome",
+  "Type": "Element",
+  "Id": "_iGPYL151Eem_S-1XSLdhg",
+  "Reference": "WivqweoQ70GDkdGez_8mvA/_iGPYL151Eem_S-1XSLdhg",
+  "ParentRef": "WivqweoQ70GDkdGez_8mvA/VXMzhwO2wECPj7LYCYsp-A",
+  "Created": "2025-04-14T07:09:30.9336821Z",
+  "Updated": "2025-04-14T07:09:30.9336821Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

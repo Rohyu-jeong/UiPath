@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Result for sha1  a40b6…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "rYWG45SiN0ama5g4WVSeRw",
+  "Reference": "WivqweoQ70GDkdGez_8mvA/rYWG45SiN0ama5g4WVSeRw",
+  "ParentRef": "WivqweoQ70GDkdGez_8mvA/i9mhZQoVtUKto_8_kni0PQ",
+  "Created": "2025-04-14T00:54:00.4360958Z",
+  "Updated": "2025-04-14T00:54:00.4360958Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
