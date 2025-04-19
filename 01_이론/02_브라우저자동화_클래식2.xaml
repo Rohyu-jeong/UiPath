@@ -79,7 +79,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_02_브라우저자동화_클래식" sap:VirtualizedContainerService.HintSize="976,1574.857142857143" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_02_브라우저자동화_클래식" sap:VirtualizedContainerService.HintSize="1273.857142857143,1560" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strTemp" />
     </Sequence.Variables>
@@ -88,21 +88,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518.8571428571429,175.42857142857142" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;***브라우저 자동화 클래식 시작***&quot;]" />
-    <Sequence sap2010:Annotation.AnnotationText="1. Open Browser 액티비티 네이버 타겟팅&#xA;   크롬으로 네이버 사이트를 오픈 (&quot;https://www.naver.com/&quot;) -&gt; 창 최대화&#xA;2. Attach Browser 액티비티로 초기화면 접근&#xA;3. 검색창에 &quot;서울의 날씨&quot;를 입력하고 엔터 (Type Info 액티비티)&#xA;4. Attach Browser 액티비티로 검색 결과창에 접근&#xA;5. 검색 결과창에서 날씨 정보를 가져옴 (Get Text 액티비티)&#xA;6. output 패널에 출력" sap:VirtualizedContainerService.HintSize="518.8571428571429,1210.2857142857142" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;***브라우저 자동화 클래식 시작***&quot;]" />
+    <Sequence sap2010:Annotation.AnnotationText="1. Open Browser 액티비티 네이버 타겟팅&#xA;   크롬으로 네이버 사이트를 오픈 (&quot;https://www.naver.com/&quot;) -&gt; 창 최대화&#xA;2. Attach Browser 액티비티로 초기화면 접근&#xA;3. 검색창에 &quot;서울의 날씨&quot;를 입력하고 엔터 (Type Info 액티비티)&#xA;4. Attach Browser 액티비티로 검색 결과창에 접근&#xA;5. 검색 결과창에서 날씨 정보를 가져옴 (Get Text 액티비티)&#xA;6. output 패널에 출력" sap:VirtualizedContainerService.HintSize="518,1200" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" BrowserType="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="484.57142857142856,266.2857142857143" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="https://www.naver.com/">
+      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" BrowserType="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="484,265" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="https://www.naver.com/">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450.2857142857143,108" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -113,13 +113,13 @@
           </ActivityAction>
         </ui:OpenBrowser.Body>
       </ui:OpenBrowser>
-      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe  NAVER'" sap:VirtualizedContainerService.HintSize="484.57142857142856,613.7142857142857" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="b8f39f4db875026acc8812004a1e960d" Selector="&lt;html app='chrome.exe' title='NAVER' /&gt;">
+      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe  NAVER'" sap:VirtualizedContainerService.HintSize="484,613" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="d09df7c23c51d40acde87196f8ef2317" Selector="&lt;html app='chrome.exe' title='NAVER' /&gt;">
         <ui:BrowserScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450.2857142857143,434.85714285714283" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,434" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="strTemp" />
               </Sequence.Variables>
@@ -128,9 +128,9 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  query'" sap:VirtualizedContainerService.HintSize="416,188" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="서울의 날씨[k(enter)]">
+              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  query'" sap:VirtualizedContainerService.HintSize="416,187" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="서울의 날씨[k(enter)]">
                 <ui:TypeInto.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="266395dd-ae65-4f66-af0e-80a1508a6009" InformativeScreenshot="57773039177218ab35bee8ffa2718200" Selector="&lt;webctrl id='query' tag='INPUT' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="266395dd-ae65-4f66-af0e-80a1508a6009" InformativeScreenshot="27a3e7a230a496c276fe34eefc0bcda2" Selector="&lt;webctrl id='query' tag='INPUT' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -140,9 +140,9 @@
                   </ui:Target>
                 </ui:TypeInto.Target>
               </ui:TypeInto>
-              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'STRONG'" sap:VirtualizedContainerService.HintSize="416,138.85714285714286" sap2010:WorkflowViewState.IdRef="GetValue_2">
+              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'STRONG'" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="GetValue_2">
                 <ui:GetValue.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1e690ec6-66ef-469f-b251-765bbafdb75b" InformativeScreenshot="f09ca0215b74aad619a0513b98bd4401" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;strong' tag='STRONG' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1e690ec6-66ef-469f-b251-765bbafdb75b" InformativeScreenshot="af8570f7159f6f5df430fe523a52e857" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;strong' tag='STRONG' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -160,8 +160,8 @@
           </ActivityAction>
         </ui:BrowserScope.Body>
       </ui:BrowserScope>
-      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="484.57142857142856,114.28571428571429" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;서울의 날씨 : &quot; + strTemp]" />
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="484,113" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;서울의 날씨 : &quot; + strTemp]" />
     </Sequence>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518.8571428571429,166.28571428571428" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;***브라우저 자동화 클래식 종료***&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;***브라우저 자동화 클래식 종료***&quot;]" />
   </Sequence>
 </Activity>
